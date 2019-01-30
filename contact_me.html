@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- Tab title -->
+    <title>Contact me</title>
+    <!-- Favicon -->
+    <link rel="icon" href="image/logo.png">
+    <meta charset="utf-8">
+    <!-- Mobile responsiveness to viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style sheet -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Site description-->
+    <meta name="description" content="Faiyaz Farhan Uddin, Student, Biography, Computer Science, and Goldsmiths University">
+    <!-- Jquery library -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script> 
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Navigation bar -->
+        <nav>
+            <a href="index.html"><img src="image/logo.png" class="logo" alt="logo"></a>
+            <!-- Mobile navigation icon -->
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="biography.html">BIOGRAPHY</a></li>
+                <li><a href="project.html">PROJECTS</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact_me.html" class="active">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <div class="title">
+            <!-- Title -->
+            <h1>Contact me</h1>
+        </div>
+        <!-- Main container -->
+        <div class="col-container">
+            <!-- Left main container -->
+            <div class="left">
+                <!-- Title -->
+                <h2>Contact me</h2>
+                <hr width="80%">
+                <!-- Form -->
+                <form action="https://formspree.io/faiyaz.f.uddin@gmail.com" method="POST" class="form">
+                    <label><span>Name</span></label>
+                    <input type="text" name="name">
+                    <label><span>Email</span></label>
+                    <input type="email" name="_replyto">
+                    <label><span>Message</span></label>
+                    <textarea name="message"></textarea><br>
+                    <input type="submit" value="Send" class="submit">
+                </form>
+            </div>  
+            <!-- Right main container -->
+            <div class="right-b">
+                <h2>FAQ</h2>
+                <hr width="80%">
+                <!-- Right contents -->
+                <p>
+                    <b>What's your name?</b><br>
+                    My name is Faiyaz
+                </p>
+                <p>
+                    <b>How old are you?</b><br>
+                    I'm 20
+                </p>
+                <p>
+                    <b>Are you bengali or italian?</b><br>
+                    My parents are bengali so my ethnicity is this but I was born in Rome (Italy), so I am italian!
+                </p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <!-- Footer social icons container -->
+            <div class="footer-social-icons">
+                <h5>© 2017 FFU . All rights reserved | Design by<br>Faiyaz Farhan Uddin.</h5>
+                <!-- Social icons -->
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/Faiyaz.Farhan.Uddin" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/faiyaz997" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/faiyaz_fu/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCh4uLCg6olu9gDCXPxHUWWw" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
